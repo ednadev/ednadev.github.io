@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+    display: flex;
+    margin: 150px auto;
+    width: 65%;
+    border-radius: 100%;;
+}
+
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px;
+}
+
+.sedanimg {
+    background-color: hsl(31, 77%, 52%);
+    padding-bottom: 10px;
+}
+
+.sedanbutton {
+    color:hsl(31, 77%, 52%);
+    margin-top: 80px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 10px;
+    background-color: hsl(0, 0%, 95%);
+    border: transparent;
+    border-radius: 50px;
+    width: 70%;
+    height: 60px;
+}
+
+.sedanbutton:hover {
+    background-color: hsl(31, 77%, 52%);
+    cursor: pointer;
+    color:hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.sedanheading {
+    font-family: 'Big Shoulders Display', sans-serif;
+    color:hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    padding-bottom: 10px;
+}
+
+.sedanp {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color:hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+
+.suvimg {
+    background-color: hsl(184, 100%, 22%);
+    padding-bottom: 10px;
+}
+
+.suvbutton {
+    color: hsl(184, 100%, 22%);
+    margin-top: 80px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 10px;
+    background-color: hsl(0, 0%, 95%);
+    border: transparent;
+    border-radius: 50px;
+    width: 70%;
+    height: 60px;
+}
+
+.suvbutton:hover {
+    background-color: hsl(184, 100%, 22%);
+    cursor: pointer;
+    color:hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.suvheading {
+    font-family: 'Big Shoulders Display', sans-serif;
+    color:hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    padding: 10px;
+}
+
+.suvp {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    background-color: hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+}
+
+.luxuryimg {
+    background-color: hsl(179, 100%, 13%);
+    padding-bottom: 10px;
+}
+
+.luxbutton {
+    color:hsl(179, 100%, 13%);
+    margin-top: 70px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 10px;
+    background-color: hsl(0, 0%, 95%);
+    border: transparent;
+    border-radius: 50px;
+    width: 70%;
+    height: 60px;
+}
+
+.luxbutton:hover {
+    background-color: hsl(179, 100%, 13%);
+    cursor: pointer;
+    color:hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.luxheading {
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    padding: 5px;
+}
+
+.luxp {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 1440px) {
+    .luxbutton {
+        margin-top: 105px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .container{
+        flex-wrap: wrap;
+    }
+    
+    .sedans, .suvs, .luxury {
+        padding: 0px;
+    }
+
+    .sedanp, .suvp, .luxp {
+        font-size: 10px;
+    }
+
+    .sedanbutton, .suvbutton, .luxbutton {
+        font-size: 10px;
+        border-radius: 10px;
+        width: 100%;
+        height: 40px;
+        align-items: flex-start;
+    }
+
+    .sedanbutton {
+        margin-top: 100px;
+    }
+
+    .suvbutton {
+        margin-top: 130px;
+    }
+
+    .luxbutton {
+        margin-top: 160px;
+    }
+}
